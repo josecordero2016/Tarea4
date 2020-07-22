@@ -3,16 +3,22 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="itemIconTint">@color/colorAccent</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="drawerArrowStyle">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
         <item name="android:windowLightStatusBar">true</item>
+        <!--La barra de navegación de color blanco-->
         <item name="android:navigationBarColor">#FFFFFF</item>
         <item name="android:navigationBarDividerColor" tools:targetApi="o_mr1">#e2e2e2</item>
         <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <!--Fondo de los items del navigation-->
         <item name="colorNavigationItem">@color/shape_rosa</item>
-        <item name="colorNavigationItemSelected">@color/colorWhite</item>
         <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state</item>
+    </style>
+
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorAccent</item>
     </style>
 
     <style name="Widget.Custom.NavigationView" parent="Widget.Design.NavigationView">
@@ -25,9 +31,6 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-
-    <!-- Cambio color menú hamburguesa -->
-
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 

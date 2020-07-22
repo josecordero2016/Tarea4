@@ -20,12 +20,12 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            android:layout_margin="10dp"
             android:background="@drawable/borde_redondeado"
             android:elevation="3dp"
-            android:layout_margin="10dp"
+            app:navigationIcon="@drawable/menu_icon"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-
-            app:titleTextColor="@color/colorAccent"/>
+            app:titleTextColor="@color/colorAccent" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

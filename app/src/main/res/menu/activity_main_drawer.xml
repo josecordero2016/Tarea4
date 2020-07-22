@@ -5,25 +5,28 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/item1.1"
+            android:id="@+id/nav_home"
             android:icon="@drawable/icon_mail"
-            android:title="Todos los recibidos" />
+            android:title="Todos los recibidos"
+            />
         <item
-            android:id="@+id/item1.2"
+            android:id="@+id/fragment_correos"
             android:icon="@drawable/icon_principal"
             android:title="Principal" />
         <item
-            android:id="@+id/item1.3"
+            android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_baseline_people_outline_24"
             android:title="Social" />
+
+
 
         <item android:id="@+id/g1"
             android:title="TODAS LAS ETIQUETAS">
             <menu>
                 <item
-                    android:id="@+id/item2"
+                    android:id="@+id/fragme"
                     android:icon="@drawable/ic_baseline_star_half_24"
-                    android:title="Destacados" />
+                    android:title="Correos" />
                 <item
                     android:id="@+id/item3"
                     android:icon="@drawable/icon_pospuestos"
