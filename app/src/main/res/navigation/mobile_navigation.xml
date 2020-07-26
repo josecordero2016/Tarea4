@@ -14,17 +14,17 @@
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.tarea4.ui.gallery.GalleryFragment"
-        android:label="Buscar en el correo electrónico"
+        android:label="Social"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.tarea4.ui.slideshow.SlideshowFragment"
-        android:label="Buscar en el correo electrónico"
+        android:label="Social"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/fragment_correos"
         android:name="com.example.tarea4.fragment_correos"
-        android:label="fragment_correos"
+        android:label="Principal"
         tools:layout="@layout/fragment_correos" />
 </navigation>
